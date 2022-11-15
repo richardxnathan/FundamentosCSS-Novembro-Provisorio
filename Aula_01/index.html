@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p {
+            color: red
+        }
+
+        h1 {
+            background-color: aqua;
+        }
+
+        img {
+            width: 30px;
+            height: 100px;
+        }
+
+        #meu_id {
+            border: 1px solid black;
+        }
+
+        #borda_grossa {
+            border: 5px dashed black;
+        }
+
+        .remover_estilo {
+            text-decoration: none;
+        }
+
+        p:hover {
+            font-weight: bolder;
+        }
+
+        .nome_proprios:hover {
+            text-transform: capitalize;
+        }
+
+        #enviar {
+            background-color: blue;
+            width: auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 8px;
+            color: white;
+        }
+
+        #enviar:hover {
+            background-color: aqua;
+            color: black;
+        }
+
+        #enviar::after{
+            content: "enviar";
+        }
+
+        #enviar:hover::after{
+            content: "geralmente ID é unico então não uso id enviar em outro seletor";
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="enviar"></div>
+    <br>
+    <a href="outrapagina.html" target="_blank">Ir para outra pagina</a>
+    <a href="https://www.linkedin.com/in/richard-nathan-dev-full-stack/" id="meu_id" class="remover_estilo">Linkedin
+    <a href="exercicio.html">Terceira Página</a>
+
+
+    <p>Sou um paragrafo.</p>
+    <h1>Sou um header grande.</h1>
+        Richard</a>
+    <img src="BMW.jpg" alt="">
+    <ul>
+        <li><i id="borda_grossa" class="remover_estilo">Itálico.</i></li>
+        <li><b class="remover_estilo">Negrito.</b></li>
+        <li><u class="remover_estilo">Linha.</u></li>
+        <li><s class="remover_estilo">Riscado.</s></li>
+    </ul>
+    <p>Segundo paragrafo.</p>
+    <P>outros</P>
+    <P>outros</P>
+    <P>outros</P>
+    <P>outros</P>
+    <P>outros</P>
+
+
+    <p><u class="remover_estilo">sem underline</u></p>
+
+    <p><s id="unico">sou_unico</s></p>
+
+    <h2 style="background-color: blueviolet; color: white;">Título até que grande.</h2>
+
+    <u>Sublinhado.</u>
+    <br><br>
+    <s>Riscado.</s>
+
+    <p style="color: blue;">Vermelho.</p>
+
+    <p class="nomes_proprios">Richard Nathan Domingos</p>
+
+
+</body>
+
+</html>
